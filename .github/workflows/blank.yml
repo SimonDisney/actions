@@ -13,7 +13,7 @@ jobs:
   # This workflow contains a single job called "slash-tests"
   slash-tests:
     # The type of runner that the job will run on
-    runs-on: [ Linux ]
+    runs-on: [ ubuntu-latest ]
     strategy:
       matrix:
         python-version: [3.8]
