@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: echo
         run: echo "Hello"
-    container:
-      credentials:
-        username: ${{ secrets.GITLAB_USERNAME }}
-        password: ${{ secrets.GITLAB_PASSWORD }}
+    #container:
+    #  credentials:
+    #    username: ${{ secrets.GITLAB_USERNAME }}
+    #    password: ${{ secrets.GITLAB_PASSWORD }}
